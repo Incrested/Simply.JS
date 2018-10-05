@@ -18,7 +18,7 @@ function changeStyle(type, base, style, change) {
 }
 
 function hide(type, base) {
-	var base2 = "'" + base "'";
+	var base2 = "'" + base + "'";
 	if(type == "id") {
 		// To Hide an Element with an ID, use the type "id"
 		document.getElementById(base2).style.display='none';
